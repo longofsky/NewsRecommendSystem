@@ -74,8 +74,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at top.qianxinyao.hotrecommend.HotRecommender.fillTopHotNewsList(HotRecommender.java:139)
 	at top.qianxinyao.hotrecommend.HotRecommender.formTodayTopHotNewsList(HotRecommender.java:105)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:95)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:95)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 09:25:33  [ main:2011 ] - [ DEBUG ]  Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: 42000; errorCode: 1064]
 com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'top 17' at line 1
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -97,8 +97,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at top.qianxinyao.hotrecommend.HotRecommender.fillTopHotNewsList(HotRecommender.java:139)
 	at top.qianxinyao.hotrecommend.HotRecommender.formTodayTopHotNewsList(HotRecommender.java:105)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:95)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:95)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 09:25:33  [ main:2012 ] - [ DEBUG ]  Testing a Connection in response to an Exception:
 com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'top 17' at line 1
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -120,8 +120,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at top.qianxinyao.hotrecommend.HotRecommender.fillTopHotNewsList(HotRecommender.java:139)
 	at top.qianxinyao.hotrecommend.HotRecommender.formTodayTopHotNewsList(HotRecommender.java:105)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:95)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:95)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 09:25:33  [ main:2149 ] - [ DEBUG ]  acquire test -- pool size: 6; target_pool_size: 10; desired target? 7
 2017-12-12 09:25:33  [ main:2149 ] - [ DEBUG ]  awaitAvailable(): com.mchange.v2.c3p0.impl.NewPooledConnection@2a4f24fe
 2017-12-12 09:25:33  [ main:2707 ] - [ INFO ]  本次推荐结束！
@@ -172,8 +172,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at top.qianxinyao.hotrecommend.HotRecommender.fillTopHotNewsList(HotRecommender.java:139)
 	at top.qianxinyao.hotrecommend.HotRecommender.formTodayTopHotNewsList(HotRecommender.java:105)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:95)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:95)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 09:28:20  [ main:2111 ] - [ DEBUG ]  Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: 42000; errorCode: 1064]
 com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17 * from news order by news_time desc' at line 1
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -195,8 +195,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at top.qianxinyao.hotrecommend.HotRecommender.fillTopHotNewsList(HotRecommender.java:139)
 	at top.qianxinyao.hotrecommend.HotRecommender.formTodayTopHotNewsList(HotRecommender.java:105)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:95)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:95)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 09:28:20  [ main:2112 ] - [ DEBUG ]  Testing a Connection in response to an Exception:
 com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17 * from news order by news_time desc' at line 1
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -218,8 +218,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at top.qianxinyao.hotrecommend.HotRecommender.fillTopHotNewsList(HotRecommender.java:139)
 	at top.qianxinyao.hotrecommend.HotRecommender.formTodayTopHotNewsList(HotRecommender.java:105)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:95)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:95)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 09:28:21  [ main:2254 ] - [ DEBUG ]  acquire test -- pool size: 6; target_pool_size: 10; desired target? 7
 2017-12-12 09:28:21  [ main:2254 ] - [ DEBUG ]  awaitAvailable(): com.mchange.v2.c3p0.impl.NewPooledConnection@27e960ab
 2017-12-12 09:28:21  [ main:2795 ] - [ INFO ]  本次推荐结束！
@@ -354,8 +354,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:23  [ main:2992 ] - [ DEBUG ]  Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: S1009; errorCode: 0]
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -374,8 +374,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:23  [ main:2992 ] - [ DEBUG ]  Testing a Connection in response to an Exception:
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -394,8 +394,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:23  [ main:3040 ] - [ DEBUG ]  com.mchange.v2.c3p0.impl.NewPooledConnection@5c5b7361 handling a throwable.
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -414,8 +414,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:23  [ main:3040 ] - [ DEBUG ]  Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: S1009; errorCode: 0]
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -434,8 +434,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:23  [ main:3041 ] - [ DEBUG ]  Testing a Connection in response to an Exception:
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -454,8 +454,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3087 ] - [ DEBUG ]  acquire test -- pool size: 6; target_pool_size: 10; desired target? 7
 2017-12-12 10:34:24  [ main:3088 ] - [ DEBUG ]  awaitAvailable(): com.mchange.v2.c3p0.impl.NewPooledConnection@4e40ba2f
 2017-12-12 10:34:24  [ main:3322 ] - [ DEBUG ]  com.mchange.v2.c3p0.impl.NewPooledConnection@43a9a76e handling a throwable.
@@ -476,8 +476,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3323 ] - [ DEBUG ]  Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: S1009; errorCode: 0]
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -496,8 +496,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3324 ] - [ DEBUG ]  Testing a Connection in response to an Exception:
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -516,8 +516,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3373 ] - [ DEBUG ]  com.mchange.v2.c3p0.impl.NewPooledConnection@43a9a76e handling a throwable.
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -536,8 +536,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3374 ] - [ DEBUG ]  Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: S1009; errorCode: 0]
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -556,8 +556,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3374 ] - [ DEBUG ]  Testing a Connection in response to an Exception:
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -576,8 +576,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3423 ] - [ DEBUG ]  com.mchange.v2.c3p0.impl.NewPooledConnection@5c5b7361 handling a throwable.
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -596,8 +596,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3423 ] - [ DEBUG ]  Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: S1009; errorCode: 0]
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -616,8 +616,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3424 ] - [ DEBUG ]  Testing a Connection in response to an Exception:
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -636,8 +636,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3474 ] - [ DEBUG ]  com.mchange.v2.c3p0.impl.NewPooledConnection@5c5b7361 handling a throwable.
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -656,8 +656,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3474 ] - [ DEBUG ]  Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: S1009; errorCode: 0]
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -676,8 +676,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3474 ] - [ DEBUG ]  Testing a Connection in response to an Exception:
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -696,8 +696,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3523 ] - [ DEBUG ]  com.mchange.v2.c3p0.impl.NewPooledConnection@43a9a76e handling a throwable.
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -716,8 +716,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3524 ] - [ DEBUG ]  Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: S1009; errorCode: 0]
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -736,8 +736,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:24  [ main:3524 ] - [ DEBUG ]  Testing a Connection in response to an Exception:
 java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
@@ -756,8 +756,8 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.jfinal.plugin.activerecord.Model.find(Model.java:577)
 	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:608)
 	at top.qianxinyao.hotrecommend.HotRecommender.recommend(HotRecommender.java:54)
-	at top.qianxinyao.Main.JobSetter.executeInstantJob(JobSetter.java:102)
-	at top.qianxinyao.Main.Main.main(Main.java:30)
+	at top.qianxinyao.main.JobSetter.executeInstantJob(JobSetter.java:102)
+	at top.qianxinyao.main.Main.main(Main.java:30)
 2017-12-12 10:34:25  [ main:4495 ] - [ INFO ]  本次推荐结束！
 2017-12-12 10:35:26  [ MLog-Init-Reporter:0 ] - [ INFO ]  MLog clients using slf4j logging.
 2017-12-12 10:35:26  [ MLog-Init-Reporter:40 ] - [ DEBUG ]  Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /

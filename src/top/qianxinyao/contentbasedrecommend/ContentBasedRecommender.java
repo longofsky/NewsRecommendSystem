@@ -152,7 +152,7 @@ public class ContentBasedRecommender implements RecommendAlgorithm
 	
 	/**
 	 * 使用 Map按value进行排序
-	 * @param map
+	 * @param oriMap
 	 * @return
 	 */
 	public static Map<Long, Double> sortMapByValue(Map<Long, Double> oriMap) {

@@ -53,7 +53,7 @@ public class MahoutUserBasedCollaborativeRecommender implements RecommendAlgorit
 	/**
 	 * 给特定的一批用户进行新闻推荐
 	 * 
-	 * @param 目标用户的id列表
+	 * @param users 目标用户的id列表
 	 */
 	@SuppressWarnings("unused")
 	@Override

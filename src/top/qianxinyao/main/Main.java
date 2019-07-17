@@ -30,9 +30,9 @@ public class Main
 		boolean enableCF=false,enableCB=false,enableHR=true;
 		
 		List<Long> userList=new ArrayList<Long>();
-		userList.add(1l);
-		userList.add(2l);
-		userList.add(3l);
+		userList.add(1L);
+		userList.add(2L);
+		userList.add(3L);
 		
 		
 		
