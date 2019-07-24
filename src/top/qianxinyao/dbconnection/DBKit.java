@@ -74,7 +74,7 @@ public class DBKit{
 		try
 		{
 			Properties p = new Properties();
-			p.load(new FileInputStream(System.getProperty("user.dir") + "/res/dbconfig.properties"));
+			p.load(new FileInputStream(System.getProperty("user.dir") + "/NewsRecommendSystem/res/dbconfig.properties"));
 			info = new HashMap<String, String>();
 			info.put("url", p.getProperty("url"));
 			info.put("user", p.getProperty("user"));

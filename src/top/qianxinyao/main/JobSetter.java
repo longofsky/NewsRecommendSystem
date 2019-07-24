@@ -90,7 +90,6 @@ public class JobSetter
 	
 	/**
 	 * 为活跃用户进行定时新闻推荐。
-	 * @param goalUserList
 	 */
 	public void executeQuartzJobForActiveUsers() {
 		executeQuartzJob(RecommendKit.getActiveUsers());
@@ -100,7 +99,6 @@ public class JobSetter
 	/**
 	 * 执行一次新闻推荐
 	 * 参数forActiveUsers表示是否只针对活跃用户进行新闻推荐，true为是，false为否。
-	 * @param forActiveUsers
 	 */
 	private void executeInstantJob(List<Long> userIDList) {
 		//让热点新闻推荐器预先生成今日的热点新闻
@@ -119,7 +117,6 @@ public class JobSetter
 	/**
 	 * 执行一次新闻推荐
 	 * 参数forActiveUsers表示是否只针对活跃用户进行新闻推荐，true为是，false为否。
-	 * @param forActiveUsers
 	 */
 	public void executeInstantJobForCertainUsers(List<Long> goalUserList) {
 		executeInstantJob(goalUserList);
@@ -134,7 +131,6 @@ public class JobSetter
 	
 	/**
 	 * 为活跃用户进行一次推荐。
-	 * @param goalUserList
 	 */
 	public void executeInstantJobForActiveUsers() {
 		executeInstantJob(RecommendKit.getActiveUsers());
